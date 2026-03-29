@@ -16,5 +16,13 @@
             "homepage": "https://nl.linkedin.com/in/joeri-abbo-43a457144",
             "role": "Developer"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }
